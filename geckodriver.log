@@ -1,0 +1,25 @@
+1608710400743	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileDSKx7M"
+Exiting due to channel error.
+
+###!!! [Child][MessageChannel] Error: (msgtype=0xFFF7,name=<unknown IPC msg name>) Channel error: cannot send/recv
+
+1608710575222	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile3yQ1AJ"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1608710605380	Marionette	INFO	Listening on port 44974
+1608710606101	Marionette	WARN	TLS certificate errors will be ignored for this session
+1608710633723	Marionette	INFO	Stopped listening on port 44974
+1608710755442	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileqRkOht"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1608710763778	Marionette	INFO	Listening on port 44120
+1608710763913	Marionette	WARN	TLS certificate errors will be ignored for this session
+1608710821012	Marionette	INFO	Stopped listening on port 44120
+1608710868971	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilenXAGqk"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1608710875578	Marionette	INFO	Listening on port 43466
+1608710875672	Marionette	WARN	TLS certificate errors will be ignored for this session
+1608710898094	Marionette	INFO	Stopped listening on port 43466
+1608710965405	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile1Z9aI1"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1608710972211	Marionette	INFO	Listening on port 34170
+1608710972244	Marionette	WARN	TLS certificate errors will be ignored for this session
+1608710995180	Marionette	INFO	Stopped listening on port 34170
