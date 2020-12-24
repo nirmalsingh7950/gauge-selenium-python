@@ -20,6 +20,15 @@ jobs:
     - name: Install dependencies
       run: |
         if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
+    - name: gauge install xml-report
+      run: |
+        gauge install xml-report
     - name: Run the test
       run: |
         gauge run specs/
+    - name: Publish Unit Test Results
+      uses: EnricoMi/publish-unit-test-result-action@v1.6
+      if: always()
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        files: reports/xml-report/result.xml
