@@ -7,7 +7,7 @@ class Driver(object):
     chrome_options.add_argument('--headless')
     @before_suite
     def __init__():
-        Driver.driver = webdriver.Chrome(driver_path='/usr/local/bin/chromedriver', chrome_options=chrome_options)
+        Driver.driver = webdriver.Chrome(chrome_options=chrome_options)
     @after_suite
     def close():
         Driver.driver.close()
