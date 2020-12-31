@@ -3,7 +3,6 @@ from selenium import webdriver
 
 class Driver(object):
     driver = None
-
     @before_suite
     def __init__():
         Driver.driver = webdriver.Chrome()
